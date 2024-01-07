@@ -5,30 +5,40 @@ body{
     background-color: darkred;
 }
 
+
+h1,h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+
 h1{
     font-family:'Righteous',cursive ;
     font-size: 45px;
     font-weight: normal;
     line-height: 60px;
     color: #fff;
+
+}
+
+h2{
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: -1px;
+    color: #DFBF84 ;
+
+}
+ 
+p{
+    font-family: 'Orienta',sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #f6f6f6;
     text-align: center;
-    text-transform: uppercase;
 }
 
 
-
 /*•	<body>:
-o	Background color: darkred
-•	<h1>:
-o	Font: 'Righteous'
--	Use CSS import: @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-o	Generic Font: cursive
-o	Font size: 45px
-o	Font weight: normal
-o	Height of the line: 60px
-o	Text color: #fff
-o	All characters to be UPPERCASE
-o	Align the text to the center
+
 •	<h2>:
 o	Font size: 30px
 o	Height of the line: 50px
