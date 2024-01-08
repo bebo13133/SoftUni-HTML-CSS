@@ -2,12 +2,16 @@ body{
 font-family: Helvetica, sans-serif ;
 font-size: 16px;
 line-height: 1.5;
+max-width: 153ch;
+border: 2px solid black;
+padding: 10px 39px;
 }
 
 h1,h2,h3,h4,h5,h6{
     font-family: Georgia, serif ;
 
 }
+
 blockquote{
  padding-left: 20px;
     text-align: left;
