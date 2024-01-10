@@ -1,0 +1,24 @@
+.main-nav {
+    padding: 0;
+}
+
+.main-nav li {
+    display: inline-block;
+    list-style: none outside;
+    margin: 0 0.2em;
+
+}
+
+.main-nav a {
+    display: block;
+    padding: 0.5em 0.8em;
+    text-decoration: none;
+    color: orangered;
+    background-color: #ccc;
+    border: 2px solid #ccc;
+    border-radius: 0.3em;
+}
+.main-nav a:hover{
+    background-color: #369;
+    color: white;
+}
