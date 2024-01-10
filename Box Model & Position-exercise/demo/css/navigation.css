@@ -21,7 +21,9 @@ position: relative;
     background-color: #ccc;
     border: 2px solid #ccc;
     border-radius: 0.3em;
+    transition: all 0.3s ease-in;
 }
+.main-nav li:hover > a,
 .main-nav a:hover{
     background-color: #369;
     color: white;
@@ -29,13 +31,18 @@ position: relative;
 .main-nav ul ul{
     display: none;
 }
+.main-nav ul ul li{
+margin-bottom: 0.3em;
+}
 .main-nav li:hover > ul{
 display: block;
 position: absolute;
 top: 100%; left: 0;
+padding:0.4em 0;
 }
 .main-nav ul ul li:hover > ul {
     left: initial;
     top: 0;
     right: 100%;
+    padding: 0.4em 0.4em;
 }
