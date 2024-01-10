@@ -2,9 +2,13 @@
     padding: 0;
 }
 
-.main-nav li {
-    display: inline-block;
+.main-nav li{
     list-style: none outside;
+}
+
+.main-nav >ul > li {
+    display: inline-block;
+position: relative;
     margin: 0 0.2em;
 
 }
@@ -21,4 +25,17 @@
 .main-nav a:hover{
     background-color: #369;
     color: white;
+}
+.main-nav ul ul{
+    display: none;
+}
+.main-nav li:hover > ul{
+display: block;
+position: absolute;
+top: 100%; left: 0;
+}
+.main-nav ul ul li:hover > ul {
+    left: initial;
+    top: 0;
+    right: 100%;
 }
