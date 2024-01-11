@@ -1,0 +1,26 @@
+.viewport {
+    height: 100vh;
+    position: relative;
+}
+
+.viewport:nth-child(1) {
+    background-color: blue;
+}
+
+.viewport:nth-child(2) {
+    background-color: aqua;
+}
+
+.card {
+    width: 10em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
