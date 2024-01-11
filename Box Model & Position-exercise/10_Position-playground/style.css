@@ -17,10 +17,27 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 0.4em;
+    overflow: hidden;
 }
 
 .card img {
     display: block;
     width: 100%;
     height: auto;
+}
+.card .shadow {
+    display: blog;
+    /* background-color: rgb(0,0,0,0.2) inset; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow:  0 0 1em 0.5em rgb(0,0,0,0.5) inset;
+    opacity: 1;
+transition: opacity 0.3s ease-in;
+}
+.card .shadow:hover{
+    opacity: 0.1;
 }
