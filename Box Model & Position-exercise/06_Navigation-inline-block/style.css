@@ -10,6 +10,6 @@ nav *{
     text-decoration: none;
 }
 ul *{
-    padding: 4px;
+    padding: 0.5em;
     color: green;
 }
