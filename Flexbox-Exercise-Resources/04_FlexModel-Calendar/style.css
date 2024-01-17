@@ -1,38 +1,50 @@
 html{
     box-sizing: border-box;
 }
+body{
+    padding: 20px;
+}
 div,section{
     display: flex;
     align-items: stretch;
 }
+
 div{
     max-width: 65vw;
 }
 span{
     flex-grow: 1;
-    text-align: center;
+    text-align:center;
     border:1px solid black;
     padding: 15px;
 }
 .week{
     flex-wrap: wrap;
+    flex-basis: 80%;
+
+}
+.week .item{
+    padding: 2rem;
 }
 .notes{
+    flex-basis: 20%;
+
     flex-direction: column;
 }
 .week span:nth-child(1){
+    padding: 4rem;
     flex-basis:100%;
 }
 .week span:nth-child(7){
     
     flex-basis:100%;
-    padding:1rem
+    padding: 4rem;
 }
 .notes span:nth-child(1){
     flex-basis:100%;
-    padding:1rem
+    padding:2rem
 }
 .notes span:nth-child(2){
     flex-basis:100%;
-    padding:1rem
+    padding:2rem
 }
