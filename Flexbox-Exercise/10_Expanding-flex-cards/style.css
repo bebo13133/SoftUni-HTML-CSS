@@ -25,7 +25,7 @@ display: block;
 width: 10em;
 height: 25em;
 overflow: hidden;
-border-radius: 10px;
+border-radius: 0.5em;
 box-shadow:0 0 15px 0.3em #00000065;
 
 }
@@ -35,5 +35,5 @@ box-shadow:0 0 15px 0.3em #00000065;
     height: 100%;
 }
 li.open{
-    width: 30em;
+    width: 35em;
 }
