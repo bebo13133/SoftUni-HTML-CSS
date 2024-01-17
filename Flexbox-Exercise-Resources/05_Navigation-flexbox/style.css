@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 4em;
+}
+html {
+    font: 16px/1.5 Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+
+header {
+    display: flex;
+    border-bottom: 2px solid black;
+    padding-bottom: 2em;
+    justify-content: space-between;
+    padding-right: 10px;
+    margin-bottom: 1em;
+}
+h2 {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    padding-bottom: 1em;
+}
+ul {
+
+    display: flex;
+    gap: 20px
+}
+nav ul li {
+    list-style: none;
+}
+nav a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
