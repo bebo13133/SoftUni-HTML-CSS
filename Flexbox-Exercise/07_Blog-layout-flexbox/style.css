@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px/1.5 Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    padding: 4em;
+    /* margin: 4em auto; */
+}
+
+img {
+    background-color: white;
+    box-shadow:
+        0 0 15px 0.3em #00000065,
+        0 0 15px 0.2em #00000065 inset;
+
+}
+
+blockquote,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /* padding-bottom: 0.5em; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2,
+h3 {
+    padding-bottom: 1em;
+}
+
+header {
+    /* display: flex; */
+    flex: 1 1 100%;
+    padding-bottom: 1em;
+    border-bottom: 2px solid black;
+    margin-bottom: 1em;
+}
+
+p {
+    padding-bottom: 1.5em;
+}
+
+a {
+    color: rgb(0, 153, 0);
+}
+
+ul {
+    list-style: inside;
+    margin-bottom: 2em;
+    text-indent: 1em;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+blockquote {
+    font-style: italic;
+    /* float: right; */
+    color: #aaa;
+}
+.border {
+    border-right: 4px solid #ccc;
+    flex: 1 0 50%;
+    padding-right: 1em;
+    margin-bottom: 1em;
+}
+.design {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    /* flex-grow: 1; */
+}
+
+.design blockquote>p:nth-child(2) {
+    float: right;
+}
+
+.page {
+    gap: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50em;
+    margin: 3em auto;
+}
+
+.page>main {
+    flex: 1 1 70%
+}
+
+.page>aside {
+    flex: 1 1 25%
+}
+
+
+
+img.align-right {
+    float: right;
+    padding: 0.5em;
+    border: 4px solid black;
+    margin: 0 0 1em 1em;
+}
+
+img.align-left {
+    float: left;
+    padding: 0.5em;
+    border: 4px solid black;
+    margin: 0 1em 1em 0;
+}
