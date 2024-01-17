@@ -25,11 +25,13 @@ li{
     justify-content: center;
     list-style: none;
     /* padding: 2em 1em; */
-
+    box-shadow: 
+    0 0 15px 0.3em #00000065,
+    0 0 15px 0.3em #00000065 inset
 }
 img {
     display: block;
-    padding: 2em 1em;
+    padding: 4em 1em;
 
 }
 .gallery{
