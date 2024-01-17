@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+}
+.container {
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.container ul {
+    display: flex;
+    gap: 2em;
+}
+
+
+.container li{
+display: block;
+width: 10em;
+height: 25em;
+overflow: hidden;
+border-radius: 10px;
+box-shadow:0 0 15px 0.3em #00000065;
+
+}
+.container img{
+    display: block;
+    width: auto;
+    height: 100%;
+}
+li.open{
+    width: 30em;
+}
