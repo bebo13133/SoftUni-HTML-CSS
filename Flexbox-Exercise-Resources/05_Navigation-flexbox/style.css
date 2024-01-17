@@ -21,6 +21,7 @@ header {
 }
 h2 {
    font-family: Georgia, 'Times New Roman', Times, serif;
+   padding-bottom: 0.5em;
 }
 p{
     padding-bottom: 1em;
