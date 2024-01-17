@@ -1,0 +1,37 @@
+html {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+body {
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.2;
+}
+
+section {
+    max-width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: row; */
+    gap: 30px;
+    margin-top: 30px;
+}
+
+
+
+/* •	Create a section with three articles inside
+•	The article should have a h2 title and a paragraph (p)
+•	Fonts
+o	Font family Helvetica, sans-serif with line height 1.5 for the html
+o	Font family Georgia, serif with line height 1.2 for the headings
+•	Change the section display property to flex and set justify-content: space-between
+•	Set on the section max-width 70vw
+ */
