@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+ 
+    font: 16px/1.5 Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    flex-direction: column;
+    /* flex-basis: 100%; */
+}
+main{
+    flex:1 1 auto;
+
+}
+body>header {
+    margin-bottom: 2em;
+
+    border-bottom: 3px solid #aaa;
+}
+
+main,
+header,
+footer {
+    padding: 1em;
+}
+footer {
+    background-color: rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
+}
+h2 {
+    margin-bottom: 0.5em;
+
+}
+p {
+    margin-bottom: 2em;
+}
+footer>p {
+    margin: 0;
+}
