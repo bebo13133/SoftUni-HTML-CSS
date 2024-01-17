@@ -20,6 +20,7 @@ img {
     box-shadow:
         0 0 15px 0.3em #00000065,
         0 0 15px 0.2em #00000065 inset;
+      
 
 }
 
@@ -80,7 +81,7 @@ blockquote {
     display: flex;
     flex-direction: row;
     gap: 1em;
-    /* flex-grow: 1; */
+
 }
 
 .design blockquote>p:nth-child(2) {
@@ -96,7 +97,9 @@ blockquote {
 }
 
 .page>main {
-    flex: 1 1 70%
+    flex: 1 1 70%;
+    justify-content: center;
+    align-items: center;
 }
 
 .page>aside {
@@ -117,4 +120,5 @@ img.align-left {
     padding: 0.5em;
     border: 4px solid black;
     margin: 0 1em 1em 0;
+ 
 }
