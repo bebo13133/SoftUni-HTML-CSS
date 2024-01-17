@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ccc;
+    }
+body,ul,li{
+    display: flex;
+}
+
+ul {
+    padding: 5em;
+    gap: 2em;
+    flex-wrap: wrap;
+   
+}
+li{
+    border: 6px solid black;
+    align-items: center;
+    list-style: none;
+}
+img {
+    display: block;
+    padding: 1em;
+}
