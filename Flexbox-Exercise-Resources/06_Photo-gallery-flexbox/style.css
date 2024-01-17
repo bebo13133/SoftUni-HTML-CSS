@@ -3,25 +3,36 @@
     margin: 0;
     box-sizing: border-box;
 }
-body {
-    background-color: #ccc;
-    }
+
 body,ul,li{
     display: flex;
 }
-
-ul {
+body {
+    background-color: #eee;
     padding: 5em;
+    /* align-items: center; */
+    justify-content: center;
+    }
+ul {
     gap: 2em;
     flex-wrap: wrap;
    
 }
 li{
+    flex: 1 1 200px;
     border: 6px solid black;
     align-items: center;
+    justify-content: center;
     list-style: none;
+    /* padding: 2em 1em; */
+
 }
 img {
     display: block;
-    padding: 1em;
+    padding: 2em 1em;
+
+}
+.gallery{
+    display: flex;
+    max-width: 70em;
 }
