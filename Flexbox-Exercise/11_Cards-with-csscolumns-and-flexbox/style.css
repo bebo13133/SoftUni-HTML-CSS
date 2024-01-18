@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ddd;
+    /* margin: 4em ; */
+}
+
+.cards-layout {
+    margin: 1em auto;
+    display: flex;
+    max-width: 50em;
+    flex-wrap: wrap;
+    gap: 2em;
+  /* align-items:flex-start; */
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    
+    flex: 0 0 200px;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 0.3em;
+    box-shadow: 0 0 15px 0.3em #00000065;
+    border: 1px solid #ccc;
+
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card section,
+.card footer {
+    padding: 1em 1.2em;
+}
+
+.card section {
+    flex: 1 0 auto;
+}
+
+footer {
+    border-top: 2px solid #ccc;
+}
