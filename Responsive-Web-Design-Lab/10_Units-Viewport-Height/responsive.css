@@ -1,0 +1,11 @@
+@media (max-height: 95vh){
+ body{
+  width: 80vh;
+ }
+  img{
+    display: block;
+    width: 80vw;
+    height:70vh;
+  }
+}
+
