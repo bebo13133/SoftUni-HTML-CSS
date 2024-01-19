@@ -1,4 +1,4 @@
-@media print and (min-width: 768px){
+@media print {
 html {
     font-size: 10px;
 
