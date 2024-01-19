@@ -1,0 +1,41 @@
+* {
+    margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 1em;
+
+}
+body >* {
+    background-color: aqua;
+    border-radius: 0.5em ;
+    padding: 1em;
+
+}
+header, footer {
+    flex: 1 1 100%;
+}
+aside {
+    flex: 1 1 30%;
+}
+main {
+    flex: 1 1 60%;
+}
+ul{
+    padding-left: 2em;
+}
+aside ul li a {
+    text-decoration: none;
+}
+aside ul li{
+    list-style: none;
+
+}
+aside ul li {
+    padding-bottom: 0.3em;
+}
