@@ -39,3 +39,8 @@ aside ul li{
 aside ul li {
     padding-bottom: 0.3em;
 }
+@media (max-width: 600px) {
+    body {
+        flex-direction: column;
+    }
+}
