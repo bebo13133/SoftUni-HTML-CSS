@@ -26,6 +26,25 @@ aside {
 main {
     flex: 1 1 60%;
 }
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul {
+    display: flex;
+margin-left: 0;
+padding-left: 0;
+}
+nav li {
+    display: block;  
+}
+nav a {
+    display: block;
+    padding: 1em 0 1em 7em;
+    /* padding-left: 7em; */
+    text-decoration: none;
+}
 ul{
     padding-left: 2em;
 }
@@ -43,4 +62,9 @@ aside ul li {
     body {
         flex-direction: column;
     }
+    header, nav ul {
+     display: block;
+
+    }
+
 }
