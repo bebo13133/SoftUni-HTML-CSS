@@ -5,3 +5,8 @@
 .post {
   container-type: inline-size;
 }
+@container (min-width: 768px) {
+  .post h2 {
+    font-size: 10em;
+  }
+}
