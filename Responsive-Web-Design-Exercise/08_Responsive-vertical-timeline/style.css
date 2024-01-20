@@ -56,3 +56,27 @@ position: relative;
 .timeline .event:nth-child(odd):before{
     background-color: rgb(241, 131, 91);
 }
+
+@media (min-width: 600px) {
+
+    .timeline .event {
+        width: 50%;
+    }
+    .timeline .event:nth-child(even) {
+        margin-left:47.5%;
+    }
+    .timeline .event:nth-child(odd) {
+       padding-left:0 ;
+       padding-right: 3em;
+       text-align: right;
+    }
+    .timeline .event:nth-child(odd):before{
+        left:inherit;
+        right: -1.40em;
+
+    }
+    .timeline:before {
+        left: 50%;
+        
+    }
+}
