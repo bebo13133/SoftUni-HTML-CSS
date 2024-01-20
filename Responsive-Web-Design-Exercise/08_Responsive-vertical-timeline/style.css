@@ -40,6 +40,11 @@ position: relative;
     position: relative;
 
 }
+.timeline .event + .event{
+    margin-top: -1em;
+
+
+}
 
 .timeline .event:before {
     display: block;
@@ -63,7 +68,7 @@ position: relative;
         width: 50%;
     }
     .timeline .event:nth-child(even) {
-        margin-left:47.5%;
+        margin-left:49%;
     }
     .timeline .event:nth-child(odd) {
        padding-left:0 ;
