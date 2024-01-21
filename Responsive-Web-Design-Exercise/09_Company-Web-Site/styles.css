@@ -1,7 +1,14 @@
 * {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 /* Fake image, just for this example */
+html {
+  font: 16px/1.5  Arial, Helvetica, sans-serif;;
+
+}
+
 .fakeimg {
   background-color: #aaa;
   width: 100%;
@@ -9,11 +16,8 @@
 }
 
 body {
-/* TODO
-CSS Grid. Display grid. 
-Define the grid areas. 
-Create two unequal columns that sits next to each other 
-*/
+margin: 0;
+
 }
 
 /* TODO Reference the grid area */
@@ -23,27 +27,36 @@ Create two unequal columns that sits next to each other
 /* TODO Reference the grid area */
 
 body {
-/* TODO style the body*/
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
 }
 
 header { 
-/* TODO style the header */
+text-align: center;
+padding: 60px;
+margin: 0;
+flex: 1 1 100%;
 }
 
 nav {
-/* TODO style the navigation bar*/
+flex: 1 1 100%;
+background-color: black;
 }
 
 nav a {
-/* TODO style the navigation bar links*/
+text-decoration: none;
+padding-left: 2em;
+color: white;
+
 }
 
 aside {
-/* TODO style the sidebar*/
+flex: 1 1 30%;
 }
 
 main {
-/* TODO style the main*/
+  flex: 1 1 60%;
 }
 
 footer{
@@ -56,3 +69,31 @@ make the two columns stack on top of each other instead of next to each other */
 /* TODO Responsive layout - If the screen is smaller than 700px, 
 display the navigation bar links as block and center the text */
 
+/* •	body
+o	Margin: 0px
+o	Font family: Arial
+•	header 
+o	Center the text
+o	Padding: 60px
+o	Margin: 0px
+o	Background color: #1abc9c
+o	Text color: white
+•	nav
+o	Background color: #333
+o	Top and bottom padding: 14px and 26px from left and right
+•	nav a
+o	Text color: white
+o	Top and bottom padding 14px and 20px from left and right
+o	Align the text to left
+o	Remove the text decoration
+•	aside 
+o	Background color: #f1f1f1
+o	Padding: 20px
+•	main
+o	Background color: white
+o	Padding: 20px
+•	footer
+o	Center the text
+o	Padding: 20px
+o	Background color: #ddd
+ */
