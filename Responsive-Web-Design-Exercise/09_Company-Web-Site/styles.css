@@ -5,8 +5,7 @@
 }
 /* Fake image, just for this example */
 html {
-  font: 16px/1.5  Arial, Helvetica, sans-serif;;
-
+  font: 16px/1.5  Arial, Helvetica, sans-serif;
 }
 
 .fakeimg {
@@ -49,6 +48,7 @@ nav a {
 text-decoration: none;
 padding-left: 2em;
 color: white;
+text-align: left;
 
 }
 
@@ -65,44 +65,35 @@ main {
 
 footer{
   /* margin-top: 2em; */
-flex: 1 1 100%;
+flex-basis:  100%;
 padding: 1em;
 background-color: #ddd;
 }
 footer h2 {
   text-align: center;
 }
-/* TODO Responsive layout - when the screen is less than 700px wide, 
-make the two columns stack on top of each other instead of next to each other */
 
-/* TODO Responsive layout - If the screen is smaller than 700px, 
-display the navigation bar links as block and center the text */
 
-/* •	body
-o	Margin: 0px
-o	Font family: Arial
-•	header 
-o	Center the text
-o	Padding: 60px
-o	Margin: 0px
-o	Background color: #1abc9c
-o	Text color: white
-•	nav
-o	Background color: #333
-o	Top and bottom padding: 14px and 26px from left and right
-•	nav a
-o	Text color: white
-o	Top and bottom padding 14px and 20px from left and right
-o	Align the text to left
-o	Remove the text decoration
-•	aside 
-o	Background color: #f1f1f1
-o	Padding: 20px
-•	main
-o	Background color: white
-o	Padding: 20px
-•	footer
-o	Center the text
-o	Padding: 20px
-o	Background color: #ddd
- */
+@media screen and (max-width: 700px) {
+  body {
+    display: block;
+
+
+    flex-direction: column;
+}
+nav a{
+  display: block;
+  text-align: center;
+  }
+  /* aside {
+    flex: none;
+  } */
+  /* main {
+    flex: 1 0 auto;
+  } */
+  /* nav{
+    flex: none;
+    display: block;
+    flex-direction: column;
+  } */
+ }
