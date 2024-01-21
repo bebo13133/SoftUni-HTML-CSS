@@ -29,7 +29,7 @@ margin: 0;
 body {
   display: flex;
   flex-wrap: wrap;
-  gap: 1em;
+  /* gap: 1em; */
 }
 
 header { 
@@ -37,6 +37,7 @@ text-align: center;
 padding: 60px;
 margin: 0;
 flex: 1 1 100%;
+background-color: #1abc9c;
 }
 
 nav {
@@ -53,16 +54,24 @@ color: white;
 
 aside {
 flex: 1 1 30%;
+background-color: #f1f1f1;
+padding: 1em;
 }
 
 main {
   flex: 1 1 60%;
+  padding: 1em;
 }
 
 footer{
-/* TODO style the footer*/
+  /* margin-top: 2em; */
+flex: 1 1 100%;
+padding: 1em;
+background-color: #ddd;
 }
-
+footer h2 {
+  text-align: center;
+}
 /* TODO Responsive layout - when the screen is less than 700px wide, 
 make the two columns stack on top of each other instead of next to each other */
 
