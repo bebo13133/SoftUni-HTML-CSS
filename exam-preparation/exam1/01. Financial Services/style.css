@@ -15,7 +15,7 @@ body {
 }
 header {
     text-align: center;
-    padding: 1em;
+    padding-bottom: 1em;
 }
 img {
 display: block;
@@ -31,7 +31,7 @@ header span {
 }
 .section-main {
     display: flex;
-    gap: 2em;
+    gap: 1.5em;
 
 }
 .section-main article {
@@ -46,6 +46,8 @@ header span {
 }
 .section-main article,
 .section-main article .media img {
+    display: block;
+    overflow: hidden;
 border-radius: 1em;
 }
 .section-main article a{
