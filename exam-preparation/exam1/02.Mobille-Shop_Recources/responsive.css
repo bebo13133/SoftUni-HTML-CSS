@@ -1,3 +1,29 @@
-@media (min-width: 600px) {
-    
+@media (max-width: 600px) {
+    .home-container01, .home-left, .home-right {
+        display: none;
+    }
+    .navbar-logo-title {
+        margin: 0;
+    }
+    .home-hero1 {
+        flex-direction: column;
+    }
+    .home-container03 {
+        align-items: center;
+    }
+    .section-container.column{
+        padding-top: 20px;
+    }
+    .home-cards-container {
+        gap: 15px;
+        /* grid-gap: 20px; */
+    }
+    .category-card-category-card {
+        flex: 0 0 47%;
+    }
+    .category-card-category-card img {
+        width: 100%;
+        height: 100%;
+        aspect-ratio: 1/1;
+    }
 }
