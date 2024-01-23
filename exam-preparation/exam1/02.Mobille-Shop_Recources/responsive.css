@@ -26,4 +26,26 @@
         height: 100%;
         aspect-ratio: 1/1;
     }
+    .section-container {
+        flex-direction: column;
+    }
+    .home-content{
+        margin: 0 0 20px 0;
+    }
+    .home-left4{
+        padding: 2em;
+    }
+   
+    .section-container{
+       padding-top: 40px;
+    }
+    .home-text30 {
+        width: initial;
+    }
+    .home-image6 {
+        width: 100%;
+    }
+    .blog-post-card-blog-post-card {
+        max-width: initial;
+    }
 }
