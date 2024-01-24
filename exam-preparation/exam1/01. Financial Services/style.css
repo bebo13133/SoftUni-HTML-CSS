@@ -6,51 +6,63 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 html {
     font: 14px/1.5 Poppins, sans-serif;
 }
+
 body {
     padding: 2em;
 
 }
+
 header {
     text-align: center;
     padding-bottom: 1em;
 }
+
 img {
-display: block;
-width: 100%;
-height: auto;
+    display: block;
+    width: 100%;
+    height: auto;
 }
+
 header span {
     color: #3977C1;
 }
+
 .container {
     max-width: 100em;
     margin: 0 auto;
 }
+
 .section-main {
     display: flex;
     gap: 1.5em;
 
 }
+
 .section-main article {
     flex: 1 1 30%;
     background-color: #819DAF;
 }
+
 .service {
     padding: 2em;
 }
-.service p{
+
+.service p {
     padding: 0.5em 0 1.5em 0;
 }
+
 .section-main article,
 .section-main article .media img {
     display: block;
     overflow: hidden;
-border-radius: 1em;
+    border-radius: 1em;
 }
-.section-main article a{
+
+.section-main article a {
     display: inline-block;
     text-decoration: none;
     background-color: #327DC4;
@@ -59,5 +71,5 @@ border-radius: 1em;
     border-radius: 1em;
     border: 1px solid #2C67C4;
     outline: 1px solid white;
-    
+
 }
