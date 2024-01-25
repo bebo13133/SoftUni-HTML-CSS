@@ -123,11 +123,13 @@ background-color: white;
 .site-welcome .container .section-content {
     display: flex;
     justify-content: space-between;
-    text-align: center;
     gap: 14em;
 }
 .site-welcome .section-content article{
  padding: 2em;
+ flex: 1 1 30%;
+ text-align: center;
+
 }
 .site-welcome .section-content .media{
     width: 20%;
@@ -135,7 +137,30 @@ background-color: white;
    padding-bottom: 1em;
     
 }
+/* site-coaches */
+.site-coaches {
+    background-color: #EFEFEF;
+}
+.site-coaches .container {
+   text-align: center;
+}
+.site-coaches .container .section-content{
+    padding: 2em 2em;
+    display: flex;
+    gap: 20em;
 
+}
+.site-coaches .container .section-content article{
+    flex: 1 1 30%;
+    text-align: center;
+}
+.site-coaches .container .media {
+    width: 100%;
+    margin: 0 auto;
+}
+.site-coaches .container .media img{
+    border-radius: 0.3em;
+}
 /* footer */
 .site-footer {
     background-color: #D01919;
