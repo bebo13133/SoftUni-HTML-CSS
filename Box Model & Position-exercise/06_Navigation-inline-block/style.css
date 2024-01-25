@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lora:ital@0;1&family=PT+Sans&family=PT+Serif:ital@1&family=Poppins&display=swap');
+
 html{
     font:16px/1.5 "Helvetica", sans-serif;
 }
 header {
     border-bottom: 2px solid #000;
 }
+.italic h2 {
+font-family: 'EB Garamond', serif;
+font-weight: 600;
 
+}
 nav *{
     display: inline-block;
     text-decoration: none;
