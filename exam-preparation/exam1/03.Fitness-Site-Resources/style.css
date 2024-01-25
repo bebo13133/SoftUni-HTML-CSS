@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif");
 
 
 * {
@@ -32,7 +32,7 @@ img {
 }
 
 .site-top-bar .container {
-    max-width: 106em;
+    max-width: 126em;
     display: flex;
     justify-content: space-between;
     padding: 0.5em;
@@ -67,7 +67,7 @@ img {
 }
 
 .site-header .container {
-    max-width: 110em;
+    max-width: 130em;
 
     display: flex;
     justify-content: flex-end;
