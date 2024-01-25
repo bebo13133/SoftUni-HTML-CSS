@@ -7,7 +7,9 @@ html {
 body {
     padding: 3em;
 }
-
+ul {
+    padding-left: 6em;
+}
 header {
     border-bottom: 2px solid #000;
 }
@@ -34,9 +36,7 @@ nav * {
     display: inline-block;
     text-decoration: none;
 }
-ul {
-    padding-left: 6em;
-}
+
 ul * {
     padding: 0 0 0 1em;
     color: green;
