@@ -10,6 +10,13 @@
 html {
     font: 14px/1.5 'PT Sans', sans-serif;
 }
+body {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-image: url("image/fitness-main.jpg");
+    background-size: contain;
+    background-position: center -300px;
+}
 img { 
     display: block;
     width: 100%;
@@ -25,6 +32,7 @@ img {
 }
 
 .site-top-bar .container {
+    max-width: 106em;
     display: flex;
     justify-content: space-between;
     padding: 0.5em;
@@ -53,15 +61,17 @@ img {
 /* header */
 .site-header {
     color: white;
-    background-color: black;
+    /* background-color: black; */
 
 
 }
 
 .site-header .container {
+    max-width: 110em;
+
     display: flex;
     justify-content: flex-end;
-    padding: 1em;
+    padding: 1em ;
 }
 
 .site-header ul {
@@ -88,19 +98,29 @@ img {
 /* hero */
 
 .site-hero-banner{
-background-color: black;
+/* background-color: black; */
 color: white;
+}
+.site-hero-banner h2 {
+    font-size: 4em;
+    font-weight: normal;
+    letter-spacing: 0.2em;
 }
 .site-hero-banner .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 2em;
+    height: 40em;
+    justify-content: center;
 }
 .site-hero-banner .container p {
-    max-width: 54ch;
+    max-width: 59ch;
     text-align: center;
+    letter-spacing: 1px;
+font-size: 1.2em;
     padding: 1em 0;
+    margin: 1em 0;
 }
 .cta a{
     display: block;
@@ -134,6 +154,15 @@ background-color: white;
 .container h3{
     padding-top: 2em;
     font-size: 2em;
+}
+.container h3:after{
+    display: block;
+    content: "";
+    margin: 1em auto;
+    height: 4px;
+    width: 4ch;
+background-color: red;
+border-radius: 0.4em;
 }
 .site-welcome .section-content article h4{
     padding: 1em;
@@ -189,3 +218,5 @@ background-color: white;
 .site-coaches {
     background-color: #EFEFEF;
 }
+
+
