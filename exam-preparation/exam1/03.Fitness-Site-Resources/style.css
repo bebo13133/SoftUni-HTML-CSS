@@ -8,7 +8,7 @@
 }
 
 html {
-    font: 12px/1.5 'PT Sans', sans-serif;
+    font: 14px/1.5 'PT Sans', sans-serif;
 }
 img { 
     display: block;
@@ -131,8 +131,16 @@ background-color: white;
  text-align: center;
 
 }
+.container h3{
+    padding-top: 2em;
+    font-size: 2em;
+}
+.site-welcome .section-content article h4{
+    padding: 1em;
+    color:#D01919;
+}
 .site-welcome .section-content .media{
-    width: 20%;
+    width: 15%;
    margin: 0 auto;
    padding-bottom: 1em;
     
@@ -150,6 +158,7 @@ background-color: white;
     gap: 20em;
 
 }
+
 .site-coaches .container .section-content article{
     flex: 1 1 30%;
     text-align: center;
@@ -160,6 +169,15 @@ background-color: white;
 }
 .site-coaches .container .media img{
     border-radius: 0.3em;
+}
+.container .section-content article h5{
+    padding: 1em;
+    color:#D01919;
+}
+.site-coaches .container .section-content article h4 {
+    padding: 1em;
+    color: black;
+    font-weight: 600;
 }
 /* footer */
 .site-footer {
