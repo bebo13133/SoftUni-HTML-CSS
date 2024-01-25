@@ -1,9 +1,148 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins&display=swap');
+
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 html {
-    font: 12px/1.5 "Verdana",sans-serif;
+    font: 12px/1.5 'PT Sans', sans-serif;
+}
+img { 
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.container {
+    max-width: 100em;
+    margin: 0 auto;
+}
+/* top bar */
+.site-top-bar {
+    background-color: #D01919;
+}
+
+.site-top-bar .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+    color: white;
+
+}
+
+.site-top-bar .socials {
+    display: flex;
+
+}
+
+.site-top-bar .socials li,
+.site-top-bar .socials a {
+    display: block;
+    padding: 0 0.2em;
+
+}
+.site-top-bar .socials a {
+    color: white;
+}
+.site-top-bar .socials a span {
+    display: none;
+}
+
+/* header */
+.site-header {
+    color: white;
+    background-color: black;
+
+
+}
+
+.site-header .container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+}
+
+.site-header ul {
+    display: flex;
+}
+
+.site-header li,
+.site-header a {
+    display: block;
+    padding: 0 1em;
+
+
+}
+
+.site-header a {
+    text-decoration: none;
+    color: white;
+}
+
+.site-header .title {
+    display: none;
+}
+
+/* hero */
+
+.site-hero-banner{
+background-color: black;
+color: white;
+}
+.site-hero-banner .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+.site-hero-banner .container p {
+    max-width: 54ch;
+    text-align: center;
+    padding: 1em 0;
+}
+.cta a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    background-color: #D01919;
+    padding:0.4em 1em;
+    border-radius: 0.3em;
+}
+/* Welcome section */
+.site-welcome{
+background-color: white;
+}
+.site-welcome .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.site-welcome .container .section-content {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 14em;
+}
+.site-welcome .section-content article{
+ padding: 2em;
+}
+.site-welcome .section-content .media{
+    width: 20%;
+   margin: 0 auto;
+   padding-bottom: 1em;
+    
+}
+
+/* footer */
+.site-footer {
+    background-color: #D01919;
+    text-align: center;
+    color: white;
+}
+
+.site-coaches {
+    background-color: #EFEFEF;
 }
