@@ -1,1 +1,59 @@
 /* TODO: Add responsive styles here... */
+@media (max-width:600px) {
+
+    .navbar{
+        justify-content: center;
+     
+    }
+    .container{
+        max-width: 500px;
+    }
+    .navbar-light .navbar-brand {
+        margin: initial;
+    }
+
+    .hero img{
+        display: none;
+    }
+    .hero h1 {
+        text-align: center;
+    }
+    .hero p {
+        text-align: center;
+    }
+    .hero-btns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom:200px;
+    }
+    h2{
+        text-align: center;
+    }
+    h5{
+        margin-top: 52px;
+    }
+    .row{
+        margin: initial;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .hero-btns a:last-child {
+        padding: 17px 75px;
+    }
+    .col-12{
+        text-align: center;
+    }
+    .hero-btns a:last-child{
+        display: none;
+    }
+    .contact-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about{
+        margin-bottom: 50px;
+    }
+}
