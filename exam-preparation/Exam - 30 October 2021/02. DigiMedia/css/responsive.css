@@ -48,6 +48,9 @@
     .hero-btns a:last-child{
         display: none;
     }
+  .col-lg-6 img{
+        margin-top: 100px;
+    }
     .contact-nav {
         display: flex;
         flex-direction: column;
