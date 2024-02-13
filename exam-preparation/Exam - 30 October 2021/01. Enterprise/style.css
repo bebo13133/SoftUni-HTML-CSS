@@ -18,12 +18,14 @@ color: #29323F;
 }
 
 .enterprice{
+    max-width:2290px;
     display: flex;
     background-color: #F6F8F9;
     /* align-items: center; */
     padding: 0 5em;
    justify-content:space-between;
    align-items: flex-end;
+   margin: 2em auto;
   }
   
 .enterprice .desc{
