@@ -39,6 +39,10 @@
         align-items: center;
 
     }
+    .col-sm-6 {
+        max-width: 100%;
+        /* flex: 0 0 100% */
+    }
     .hero-btns a:last-child {
         padding: 17px 75px;
     }
