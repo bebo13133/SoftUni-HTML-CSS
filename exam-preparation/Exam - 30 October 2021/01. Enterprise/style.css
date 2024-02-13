@@ -40,6 +40,9 @@ color: #29323F;
    font-weight: bold;
    font-size: 2.2em;
 }
+.enterprice .img{
+    width: 31%;
+ }
 .enterprice .desc .subtitle{
     font-size: 1.9em;
     font-weight: normal;
@@ -64,6 +67,3 @@ color: #29323F;
     color: #666F78;
 
 }
-.enterprice .img{
-    width: 31%;
- }
