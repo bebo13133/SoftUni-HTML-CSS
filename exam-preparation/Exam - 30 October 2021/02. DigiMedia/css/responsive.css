@@ -6,7 +6,7 @@
      
     }
     .container{
-        max-width: 600px;
+        max-width: 500px;
     }
     .navbar-light .navbar-brand {
         margin: initial;
@@ -40,7 +40,7 @@
         gap: 20px;
     }
     .side2-img img{
-        top: 1880px;
+        top: 1980px;
     }
     .col-sm-6 {
         max-width: 100%;
@@ -65,5 +65,8 @@
     }
     .about{
         margin-bottom: 50px;
+    }
+    .footer{
+        padding: initial;
     }
 }
