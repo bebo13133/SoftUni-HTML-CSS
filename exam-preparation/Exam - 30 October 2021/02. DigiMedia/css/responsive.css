@@ -37,7 +37,7 @@
         margin: initial;
         flex-direction: column;
         align-items: center;
-
+        gap: 20px;
     }
     .side2-img img{
         top: 1830px;
