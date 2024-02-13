@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font: 14px/1.5 "Helvetica",sans-serif;
+}
+body,input,select,textarea,button{
+    font: inherit;
+}
+body{
+
+}
