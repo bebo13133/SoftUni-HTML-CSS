@@ -6,7 +6,7 @@
      
     }
     .container{
-        max-width: 500px;
+        max-width: 600px;
     }
     .navbar-light .navbar-brand {
         margin: initial;
@@ -39,9 +39,12 @@
         align-items: center;
 
     }
+    .side2-img img{
+        top: 1830px;
+    }
     .col-sm-6 {
         max-width: 100%;
-        /* flex: 0 0 100% */
+        flex: 0 0 100%
     }
     .hero-btns a:last-child {
         padding: 17px 75px;
