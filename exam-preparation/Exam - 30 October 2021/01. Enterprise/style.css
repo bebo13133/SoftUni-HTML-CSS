@@ -5,11 +5,62 @@
 }
 
 html{
-    font: 14px/1.5 "Helvetica",sans-serif;
+    font: 16px/1.5 "Helvetica",sans-serif;
 }
 body,input,select,textarea,button{
     font: inherit;
 }
+
 body{
+max-width: 1900px;
+padding: 8em 20em;
+color: #29323F;
+}
+
+.enterprice{
+    display: flex;
+    background-color: #F6F8F9;
+    /* align-items: center; */
+    padding: 0 5em;
+   justify-content:space-between;
+   align-items: flex-end;
+  }
+  
+.enterprice .desc{
+   width: 40%;
+    padding: 4em 0;
+}
+.enterprice .btn{
+    all:unset;
+   border: 1px solid #29323F;
+   padding: 0.8em 1.5em;
+   border-radius: 0.2em;
+   font-weight: bold;
+}
+.enterprice .desc .subtitle{
+    font-size: 0.9em;
+    font-weight: normal;
+    margin-bottom: 1em;
+}
+.enterprice .btn.primery_btn{
+    background-color: #7573F6;
+    color: white;
+    margin-right: 1em;
+}
+
+.enterprice .desc .title{
+    font-size: 2.5em;
+    font-weight: normal;
+    margin-bottom: 0.7em;
 
 }
+.enterprice .desc .description{
+   
+    font-weight: normal;
+    margin-bottom: 3.5em;
+    color: #666F78;
+
+}
+.enterprice .img{
+    width: 29%;
+ }
