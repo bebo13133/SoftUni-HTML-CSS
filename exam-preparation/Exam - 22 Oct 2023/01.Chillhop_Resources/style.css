@@ -39,6 +39,7 @@ body {
 .list li {
     margin-top: 1em;
     padding-left: 3em;
+    margin-bottom: 1em;
 }
 
 .list li a {
