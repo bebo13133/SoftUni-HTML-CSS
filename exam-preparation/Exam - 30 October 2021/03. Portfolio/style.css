@@ -20,7 +20,7 @@ body{
     display: flex;
     align-items: center;
     gap: 8em;
-    padding: 3em 5em;
+    padding: 3em 6em;
     overflow: hidden;
 }
 #hero.page-section{
@@ -30,6 +30,9 @@ body{
     position: absolute;
     top: 2em;
     right: 2em;
+}
+.navigation span{
+    margin-right: 0.3em;
 }
 .page-section .title{
     color: var(--grey-dark);
