@@ -152,6 +152,9 @@ body {
 
 #image.page-section-noflex {
     background-image: url('/images/thumb-1.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .future {
