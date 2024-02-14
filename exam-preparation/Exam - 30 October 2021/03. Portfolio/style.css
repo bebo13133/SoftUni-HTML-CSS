@@ -126,3 +126,10 @@ transform: translate(-50%, -50%);
 #image.page-section-noflex{
     background-image: url('/images/thumb-1.jpeg');
 }
+.future{
+    width: 52% ;
+    height: auto;
+}
+#future.page-section .info .desc{
+    width: 45ch;
+}
