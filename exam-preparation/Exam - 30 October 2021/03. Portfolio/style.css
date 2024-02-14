@@ -80,12 +80,19 @@ body {
     width: 1px;
     background-color: var(--grey-text);
 }
-
+.inline{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+ 
+}
 .devider.horizontal {
-    width: 4em;
+    margin-bottom: 40px;
+    width: 5em;
     height: 1px;
     background-color: var(--grey-text);
 }
+
 
 #camera .socials {
     display: flex;
