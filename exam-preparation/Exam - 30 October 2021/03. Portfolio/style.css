@@ -118,7 +118,11 @@ transform: translate(-50%, -50%);
     display: flex;
     gap:1em
 }
-#gallery .list .picture:nth-child(2):hover{
+#gallery .list .picture:nth-child(2){
     transform: scale(1.8, 1.4);
  
+}
+
+#image.page-section-noflex{
+    background-image: url('/images/thumb-1.jpeg');
 }
