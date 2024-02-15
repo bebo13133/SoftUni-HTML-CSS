@@ -1,0 +1,174 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css';
+
+
+:root {
+    --header-bg: #FFFFFF;
+    --cinema-tx: #313131;
+    --imdb: #818080;
+    --navbar: #746969;
+    --navbar-hover: #0C090A;
+    --green-bg: #56DBB1;
+    --card-title: white;
+    --card-border: #686767;
+    --card-desc: #5B5956;
+    --card-sect-bg: #353434;
+    --consvalis-title: #5F5F5F;
+    --consvalis-desc: #C3BCB8;
+    --convalis-btv-bg: #974D1B;
+    --footer-green-bg: #1B9772;
+    --footer-text:#56DBB1;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2em 4em;
+}
+
+.container-logo {
+    display: flex;
+    gap: 1em;
+    align-items: baseline;
+}
+
+.container-logo h1 {
+    font-size: 2.8em;
+}
+
+.container-logo p {
+    font-size: 1.2em;
+}
+
+.divider {
+    display: block;
+    width: 1px;
+    height: 2.2em;
+    background-color: var(--imdb);
+}
+
+.list {
+    display: flex;
+    gap: 0.1em;
+    border: 1px solid white;
+
+}
+
+.list a {
+    text-decoration: none;
+    padding: 0.8em 1.5em;
+    background-color: #ECECEC;
+    font-size: 1.2em;
+
+}
+
+.hero-img {
+    width: 100%;
+    height: 640px;
+    background-image: url('/images/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.hero p {
+    text-align: center;
+    padding: 5em 13em;
+    background-color: var(--green-bg);
+    font-size: 1.2em;
+}
+
+.cards {
+    background-color: var(--card-sect-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+
+}
+
+.card-column {
+    flex: 0 0 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8em 0;
+}
+
+.card-column i {
+    color: white;
+    font-size: 3.8em;
+    padding: 0.5em;
+    background-color: #56DBB1;
+}
+
+
+.card-column .title {
+    font-style: 1.3;
+    color: var(--card-title);
+    padding: 1em 0;
+
+}
+
+.card-column .desc {
+    border-top: 3px solid var(--card-border);
+    padding-top: 1em;
+    font-style: 1em;
+    color: var(--card-desc);
+    width: 75%;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.6em;
+}
+
+.canvalis {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 6em;
+
+}
+
+.canvalis h2 {
+    font-size: 2.5em;
+    color: var(--consvalis-title);
+}
+
+.canvalis P {
+    font-size: 1.25em;
+    color: var(--consvalis-desc);
+    font-weight: bold;
+    padding-bottom: 3em;
+
+}
+
+.canvalis a {
+    color: #FEF9EF;
+    background-color: var(--convalis-btv-bg);
+    padding: 0.5em 2em;
+}
+
+.before .desc {
+    border: initial;
+}
+.before .title {
+    font-size: 1.5em;
+} 
+.footer {
+    background-color: var(--footer-green-bg);
+    color: var(--footer-text);
+    text-align: center;
+    padding: 3em 0;
+}
+.footer span {
+    color: white;
+}
