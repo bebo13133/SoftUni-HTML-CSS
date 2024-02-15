@@ -2,6 +2,8 @@
 
 body{
     font-family: "Agbalumo", system-ui;
+    border: 3px solid black;
+    
 }
 img{
     display: block;
@@ -17,7 +19,7 @@ img{
 }
 .container h2,h3{
     text-align: center;
-    border-bottom: 2px solid black;
+    border-bottom: 3px solid black;
 }
 .container h2{
     font-size: 2.5em;
@@ -66,4 +68,24 @@ font-size: 1.5em;
         padding-bottom: 0.5em;
     font-size: 2.4em;
     
+}
+
+.list{
+    padding: 3em ;
+    line-height: 2em;
+    font-size: 2em;
+    font-weight: normal;
+
+}
+.list span{
+    font-weight: bold;
+    padding-left: 2em;
+}
+.before{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-align: left;
+    font-size: 2em;
+    padding: 0.3em 6em;
 }
