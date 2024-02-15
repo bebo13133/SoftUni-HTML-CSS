@@ -59,4 +59,19 @@
     .home-container07{
         margin-top: 60px;
     }
+    .home-container08 {
+        justify-content: center;
+    }
+    .blog-post-card-text{
+        font-size: 20px;
+    }
+    .blog-post-card-text1{
+        font-size: 14px;
+    }
+    .home-footer1 {
+        flex-direction: column-reverse;
+        /* order: 1000; */
+        padding-top: 40px;
+        padding-left: 20px;
+    }
 }
