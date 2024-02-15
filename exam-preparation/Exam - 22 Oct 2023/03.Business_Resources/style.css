@@ -105,7 +105,7 @@ z-index: 1000;
     flex-direction: row;
     /* justify-content:center; */
     /* align-items: center; */
-    gap: 2em;
+    gap: 1em;
     background-color: white;
 }
 
@@ -132,7 +132,7 @@ z-index: 1000;
 .right {
     display: flex;
     flex-direction: column;
-    flex: 1 1 45%;
+    flex: 1 1 55%;
     justify-content: end;
 }
 
