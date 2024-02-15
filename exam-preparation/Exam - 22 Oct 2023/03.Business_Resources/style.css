@@ -96,6 +96,7 @@ a {
     display: flex;
     flex-direction: column;
     flex: 1 1 45%;
+    justify-content: end;
 }
 
 .left h2 {
@@ -115,6 +116,7 @@ a {
     display: flex;
     flex-direction: column;
     flex: 1 1 45%;
+    justify-content: end;
 }
 
 .right h2 {
@@ -205,6 +207,7 @@ a {
 .before-footer{
 color: var(--footer-text-color);
 background-color: var(--footer-background);
+padding-bottom: 4em;
 }
 
 .footer-container{
