@@ -6,9 +6,9 @@
     --orange-sponsor-p: #A68D7A;
     --footer-background: #171720;
     --footer-text-color: #86908F;
+    --footer-border:#313139;
+    
 }
-
-
 
 body {
     font-family: "PT Serif", serif;
@@ -29,7 +29,7 @@ a {
 /* hero */
 .container {
     max-width: 1440px;
-    background-color: var(--footer-background);
+    /* background-color: var(--footer-background); */
     color: white;
     margin: 0 auto;
     display: flex;
@@ -83,7 +83,7 @@ a {
 
 .business.container {
     padding-top: 8em;
-    padding-bottom: 2em;
+    padding-bottom: 8em;
     display: flex;
     flex-direction: row;
     /* justify-content:center; */
@@ -119,7 +119,7 @@ a {
 
 .right h2 {
     font-weight: normal;
-    font-size: 2.5em;
+    font-size: 3.5em;
     color: var(--h2-text);
     margin-bottom: 0.7em;
 }
@@ -138,4 +138,99 @@ a {
     text-align: center;
     padding: 0.4em 0;
     font-weight: bold;
+}
+/* sponsors */
+
+.sponsor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.sponsor h2{
+    color: var(--orange-sponsor);
+    font-size: 3.5em;
+    font-weight: normal;
+    margin-top: 1em;
+}
+.sponsor p{
+    color: var(--orange-sponsor-p);
+    text-align: center;
+    padding-top: 2em;
+    font-size: 1.2em;
+
+}
+.sponsor-media{
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+    gap: 5em;
+}
+
+.sponsor-media img {
+    width: 15%;
+    display: block;
+    padding: 1em;
+    /* border: 1px solid #DDDDDD; */
+    border-radius: 50%;
+    background-color: #DDDDDD;
+    height: auto;
+    
+    margin-bottom: 4em;
+
+}
+
+/* partners */
+.partner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.partner h2{
+    color: var(--orange-sponsor);
+    font-size: 3.5em;
+    font-weight: normal;
+    margin-top: 1em;
+}
+.partner p{
+    color: var(--orange-sponsor-p);
+    text-align: center;
+    padding-top: 2em;
+    font-size: 1.2em;
+    margin-bottom: 4em;
+
+}
+/* footer */
+.before-footer{
+color: var(--footer-text-color);
+background-color: var(--footer-background);
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 2em 0;
+    gap: 6em;
+}
+.section-c h4{
+    padding-bottom: 2em;
+}
+
+.list-footer li>a{
+    color: var(--footer-text-color);
+    text-transform: uppercase;
+    line-height: 2em;
+}
+.site-footer{
+color: var(--footer-text-color);
+background-color: var(--footer-background);
+border-top: 2px solid var(--footer-border);
+
+}
+footer{
+color: var(--footer-text-color);
+padding: 1em 0;
+font-size: 1.2em;
 }
