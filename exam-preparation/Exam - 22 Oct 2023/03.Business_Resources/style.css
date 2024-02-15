@@ -51,7 +51,7 @@ z-index: 1000;
 }
 
 .banner p {
-    max-width: 39%;
+    max-width: 39em;
     font-size: 1.1em;
     letter-spacing: 1.2px;
     padding-bottom: 14em;
@@ -105,7 +105,7 @@ z-index: 1000;
     flex-direction: row;
     /* justify-content:center; */
     /* align-items: center; */
-    gap: 1em;
+    gap: 3em;
     background-color: white;
 }
 
@@ -242,7 +242,7 @@ padding-bottom: 4em;
 .list-footer li>a{
     color: var(--footer-text-color);
     text-transform: uppercase;
-    line-height: 2em;
+    line-height: 2.5em;
 }
 .site-footer{
 color: var(--footer-text-color);
