@@ -1,0 +1,141 @@
+:root {
+    --navbar: #E1E0E3;
+    --background-site: white;
+    --h2-text: #37282B;
+    --orange-sponsor: #B0825C;
+    --orange-sponsor-p: #A68D7A;
+    --footer-background: #171720;
+    --footer-text-color: #86908F;
+}
+
+
+
+body {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.site-section.banner {
+    background-color: var(--footer-background);
+
+}
+
+/* hero */
+.container {
+    max-width: 1440px;
+    background-color: var(--footer-background);
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner h2 {
+    max-width: 39%;
+    font-size: 3em;
+    padding: 0.6em 0;
+    font-weight: normal;
+}
+
+.banner p {
+    max-width: 39%;
+    font-size: 1.1em;
+    letter-spacing: 1.2px;
+    padding-bottom: 14em;
+}
+
+/* ============================= */
+
+/* header */
+.site-section.site-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 4em;
+    align-items: center;
+    font-family: "PT Sans", sans-serif;
+    text-transform: uppercase;
+    background-color: var(--footer-background);
+
+}
+
+.site-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.site-nav a {
+    color: var(--navbar);
+}
+
+/* ===================================== */
+
+/* business */
+.site-section.business {
+    border-bottom: 2px solid #CCCCCC;
+}
+
+.business.container {
+    padding-top: 8em;
+    padding-bottom: 2em;
+    display: flex;
+    flex-direction: row;
+    /* justify-content:center; */
+    /* align-items: center; */
+    gap: 2em;
+    background-color: white;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 45%;
+}
+
+.left h2 {
+    font-size: 2.5em;
+    color: var(--h2-text);
+    margin-bottom: 0.7em;
+    font-weight: normal;
+}
+
+.left p {
+    color: var(--orange-sponsor-p);
+    max-width: 70ch;
+    padding-bottom: 2em;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 45%;
+}
+
+.right h2 {
+    font-weight: normal;
+    font-size: 2.5em;
+    color: var(--h2-text);
+    margin-bottom: 0.7em;
+}
+
+.right p {
+    color: var(--orange-sponsor-p);
+    max-width: 70ch;
+    padding-bottom: 2em;
+}
+
+.btn {
+    border: 2px solid var(--orange-sponsor);
+    background-color: transparent;
+    color: var(--orange-sponsor);
+    max-width: 23%;
+    text-align: center;
+    padding: 0.4em 0;
+    font-weight: bold;
+}
