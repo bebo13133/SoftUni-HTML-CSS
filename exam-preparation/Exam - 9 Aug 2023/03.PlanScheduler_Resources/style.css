@@ -23,7 +23,7 @@ a {
 }
 
 .container {
-    max-width: 1670px;
+    max-width: 1690px;
     margin: 0 auto;
 }
 
@@ -206,9 +206,7 @@ padding-bottom: 0.5em;
 .card-plan-right p{
     padding-bottom: 0.5em;
 }
-.card-plan-right > p:nth-child(6) > span{
-    /* padding-bottom: 12em; */
-}
+
 .card-plan-right a{
     margin-top: 2em;
     background-color: white;
