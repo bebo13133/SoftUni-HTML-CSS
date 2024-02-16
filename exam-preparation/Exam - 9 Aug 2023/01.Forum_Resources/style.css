@@ -1,0 +1,89 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css";
+
+body {
+    font-family: "Inter", sans-serif;
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.main{
+    background-image: url('/images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.container {
+    max-width: 1650;
+    margin: 0 auto;
+    padding:4em 8em;
+    display: flex;
+    gap: 2em;
+    align-items: unset;
+}
+.cards{
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+    flex: 0 0 60%;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 4em; */
+    background-color: white;
+    border: 1px solid black;
+    padding: 4em 2em;
+
+}
+.person {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    flex: 0 0 65%;
+}
+.media{
+    flex: 0 0 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.media img{
+    width: 200px;
+    height: auto;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.aside{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border: 1px solid black;
+    padding: 4em 2em;
+    
+}
+.media-desc{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    justify-content: flex-start;
+    
+}
+.media-desc img{
+  
+    width: 200px;
+    height: auto;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.desc-3{
+    display: flex;
+    flex-direction: column;
+}
