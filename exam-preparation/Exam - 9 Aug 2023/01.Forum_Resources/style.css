@@ -8,6 +8,9 @@ img{
     width: 100%;
     height: auto;
 }
+h3{
+    font-size: 2em;
+}
 .main{
     background-image: url('/images/background.jpg');
     background-position: center;
@@ -18,16 +21,20 @@ img{
 .container {
     max-width: 1650;
     margin: 0 auto;
-    padding:4em 8em;
+    padding:4em 2em;
     display: flex;
     gap: 2em;
     align-items: unset;
+    justify-content: center;
 }
 .cards{
     display: flex;
     gap: 2em;
     flex-direction: column;
     flex: 0 0 60%;
+}
+.cards i{
+    font-size: 4.4em;
 }
 .card{
     display: flex;
@@ -59,25 +66,32 @@ img{
     object-fit: cover;
 }
 .aside{
-    flex: 1 1 auto;
+    flex: 0 0 25%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-color: white;
     border: 1px solid black;
     padding: 4em 2em;
-    
+
+}
+.desc{
+ display: flex;
+flex-direction: column;
+gap: 5em;
 }
 .media-desc{
     display: flex;
-    align-items: center;
+    align-items: start;
     gap: 1em;
     justify-content: flex-start;
-    
+    border-top: 2px solid black;
+    padding-top:1em ;
+    flex: 0 0 15%;
 }
 .media-desc img{
   
-    width: 200px;
+    width: 100px;
     height: auto;
     aspect-ratio: 1/1;
     object-fit: cover;
@@ -86,4 +100,10 @@ img{
 .desc-3{
     display: flex;
     flex-direction: column;
+}
+.desc p {
+    padding-bottom: 2em;
+}
+.desc i{
+    font-size: 5.4em;
 }
