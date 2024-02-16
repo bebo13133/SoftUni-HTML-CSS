@@ -20,16 +20,15 @@
 
 
 ENTERPRISE
-Lorem ipsum dolor sit amet
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non volutpat turpis. Mauris luctus rutrum mi ut rhoncus. Integer in dignissim tortor. Lorem ipsum dolor sit amet, consectetur adipiscing ...
-Read More
+
+
 by Suzzan Smith 1 hours ago
 
 ENTERPRISE
 Lorem ipsum dolor sit amet
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non volutpat turpis. Mauris luctus rutrum mi ut rhoncus. Integer in dignissim tortor. Lorem ipsum dolor sit amet, consectetur adipiscing ...
 Read More
-by Harry Brown 3 hours ago
+
 
 ENTERPRISE
 Lorem ipsum dolor sit amet
@@ -50,13 +49,4 @@ by Bob Joew Brown 5 hours ago
 
 
 
-Free
-$29
-100
-Projects
-100
-Components
-20
-Collaborators
-Private projects
-Learn More
+
