@@ -1,42 +1,50 @@
-:root{
-    --site-bg:#D9D9D9;
-    --navbar-text:black;
-    --buy-btn:#404040;
-    --orange:#FF7C4C;
-    --sect2-title:#5A5A5A;
-    --sect2-desc:#C1C0C0;
-    --sect3-enterprise:#656666;
-    --sect3-readmore:#161D20;
-    --second-bg:#F5F5F5;
+:root {
+    --site-bg: #D9D9D9;
+    --navbar-text: black;
+    --buy-btn: #404040;
+    --orange: #FF7C4C;
+    --sect2-title: #5A5A5A;
+    --sect2-desc: #C1C0C0;
+    --sect3-enterprise: #656666;
+    --sect3-readmore: #161D20;
+    --second-bg: #F5F5F5;
 }
-body{
+
+body {
     font-family: "Inter", sans-serif;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.main{
+
+.main {
     background-color: var(--site-bg);
 }
-.container{
+
+.container {
     max-width: 1670px;
-    margin:0 auto;
+    margin: 0 auto;
 }
-.header{
+
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 2em 0 1em 0;
 }
-.header ul{
+
+.header ul {
     display: flex;
     gap: 2em;
     align-items: center;
 }
-.header ul li a{
+
+.header ul li a {
     color: var(--navbar-text);
     font-size: 1.25em;
 }
+
 .header .header-btn {
     font-size: 1.25em;
     color: var(--buy-btn);
@@ -46,17 +54,19 @@ a{
     border-radius: 0.3em;
     font-weight: 500;
 }
+
 /* hero */
-.hero{
+.hero {
     height: 760px;
     background-image: url('/images/background.jpg');
     /* background-size: contain; */
-    background-position:center top -310px;
+    background-position: center top -310px;
     background-repeat: no-repeat;
 }
-.hero-container{
+
+.hero-container {
     max-width: calc(1670px - 418px);
-    margin:0 auto;
+    margin: 0 auto;
     display: flex;
     padding-top: 10%;
     flex-direction: column;
@@ -65,22 +75,149 @@ a{
     /* align-items: center; */
 
 }
-.hero-container h1{
+
+.hero-container h1 {
     font-size: 3.88em;
 }
-.hero-container p{
+
+.hero-container p {
     font-size: 1.4em;
     color: white;
     padding-top: 2em;
     padding-bottom: 2em;
     font-weight: bold;
+    line-height: 1.1em;
 }
-.hero-flex a{
-    padding: 0.5em 1em;
+
+.hero-flex a {
+    padding: 0.9em 1.3em;
     font-size: 1.25em;
     color: white;
     background-color: black;
     border-radius: 0.2em;
 }
 
+/* info */
+.info {
+    background-color: white;
+}
 
+.cards {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 6em 0 6em 3em;
+}
+
+.card {
+    text-align: center;
+}
+
+.card h2 {
+    font-size: 4em;
+    color: var(--orange);
+    font-weight: bold;
+    padding-bottom: 0.4em;
+}
+
+.card h3 {
+    font-size: 1.5em;
+    color: var(--sect2-title);
+}
+
+.card p {
+    /* font-size: 1.25em; */
+    color: var(--sect2-desc);
+}
+
+.plans {
+    background-color: var(--second-bg);
+ 
+}
+
+.second-bg {
+    background-color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2em;
+}
+.second-bg h3{
+    font-size: 2em;
+    padding-bottom: 1.8em;
+}
+.second-bg p{
+    font-size: 1.25em;
+}
+.pricing-plan {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 30%;
+    padding: 0 2em;
+
+}
+
+.pricing-plan h2 {
+    padding: 1em 0;
+    color: black;
+    font-size: 2.5em;
+}
+.card-plan-left{
+    padding: 2em 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--orange);
+    flex: 1 1 30%;
+}
+.card-plan-right{
+    padding: 2em 0;
+
+    flex: 1 1 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: #161D20;
+}
+.card-plan-left h2 {
+    font-weight: normal;
+    font-size: 5em;
+padding-bottom: 0.5em;
+
+}
+.card-plan-right h2 {
+    font-weight: normal;
+padding-bottom: 0.5em;
+    font-size: 5em;
+}
+.card-plan-right span{
+    font-weight: bold;
+}
+.card-plan-left span{
+    font-weight: bold;
+}
+.card-plan-left p{
+    padding-bottom: 0.5em;
+}
+.card-plan-right p{
+    padding-bottom: 0.5em;
+}
+.card-plan-right > p:nth-child(6) > span{
+    /* padding-bottom: 12em; */
+}
+.card-plan-right a{
+    margin-top: 2em;
+    background-color: white;
+    color: black;
+    padding: 1em 2em;
+}
+.card-plan-left a{
+    margin-top: 2em;
+    background-color: black;
+    color: white;
+    padding: 1em 2em;
+}
