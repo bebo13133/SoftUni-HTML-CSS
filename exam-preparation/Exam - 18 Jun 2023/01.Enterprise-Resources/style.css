@@ -75,6 +75,7 @@ img {
 .person p{
     padding: initial;
     color: #A7A7A5;
+    font-size: 1.25em;
 }
 
 .media-person {
