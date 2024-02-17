@@ -1,3 +1,5 @@
+@import'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css';
+
 :root {
     --background:white ;
     --second-bg:#ADE2DF;
@@ -25,7 +27,7 @@ img {
     align-items: center;
     justify-content: space-between;
     flex-wrap: nowrap;
-    padding: 2em 6em;
+    padding: 2em 10em;
 }
 .nav-list{
     display: flex;
@@ -52,4 +54,33 @@ font-size: 1.25em;
     background-color: var(--second-bg);
     font-weight: 700;
 
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--second-bg);
+    padding: 8em 3em;
+}
+.hero h1{
+    font-size: 4.8em;
+}
+.hero p{
+    font-size: 1.5em;
+    padding-bottom: 2.3em;
+}
+.hero-btn{
+    display: flex;
+    gap: 1.5em;
+}
+.hero-btn a {
+    color: var(--text-btn-white);
+    background-color: black;
+    padding: 1em 2em;
+    border-radius: 5px; 
+}
+.hero-btn i{
+    padding-right: 0.2em;
 }
