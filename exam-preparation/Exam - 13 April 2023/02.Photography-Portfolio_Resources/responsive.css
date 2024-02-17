@@ -44,4 +44,16 @@
     .home-text10{
         margin-right: 40px;
     }
+    .home-text08{
+        font-size: 18px;
+    }
+    .home-text09.Heading2 {
+        font-size: 36px;
+    }
+    .home-links-container{
+        flex-direction: column;
+    }
+    .home-product-container {
+   padding: 1em 0;
+    }
 }
