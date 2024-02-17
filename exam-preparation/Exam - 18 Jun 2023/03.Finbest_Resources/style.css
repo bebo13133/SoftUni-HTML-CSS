@@ -155,6 +155,7 @@ font-size: 1.25em;
     color: var(--text-color);
     border-bottom: 1px solid black;
 }
+
 .pricing-plans{
     display: flex;
     flex-direction: column;
@@ -175,6 +176,16 @@ font-size: 1.25em;
 }
 .pricing-cards{
     display: flex;
+    border: 2px solid var(--border);
+    border-radius: 15px;
+}
+.background{
+   
+    display: block;
+    background-color: #F3F5FA;
+    width: 100%;
+    height: 100px;
+
 }
 .extend-card{
     flex: 0 0 40%;
@@ -261,4 +272,7 @@ text-align: center;
     color: black;
     /* font-size: 1.1em; */
     font-weight: bold;
+}
+footer{
+    padding: 2em;
 }
