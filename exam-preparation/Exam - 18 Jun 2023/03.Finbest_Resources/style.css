@@ -215,6 +215,7 @@ background-color: var(--second-bg);
  
 }
 .extend-card a{
+    
     display: flex;
     text-align: center;
     background-color: black;
@@ -255,6 +256,7 @@ background-color: var(--second-bg);
 .price-card h3 {
     font-size: 1.5em;
 text-align: center;
+padding: 1em 0 0 0 ;
 
 }
 .price-card p {
@@ -268,11 +270,12 @@ text-align: center;
 
 }
 .price-card a{
- /* text-align: center; */
-    /* margin-top: 1em; */
+ text-align: center;
+    margin-top: 1em;
+    width: 100%;
   align-self: center;
     background-color: var(--second-bg);
-    padding: 1em 6.5em;
+    padding: 1em 0;
     border-radius: 5px ;
     color: black;
     /* font-size: 1.1em; */
