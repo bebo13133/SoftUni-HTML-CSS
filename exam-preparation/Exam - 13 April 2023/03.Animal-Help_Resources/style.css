@@ -1,0 +1,19 @@
+:root{
+    --background-white:white;
+    --border-grey:#EAEAEA;
+    --second-background:#85DCFF;
+    --work-description:#0C1424;
+    --hsus-paragraph:#505050;
+}
+
+
+body{
+    font-family: Arial, sans-serif;
+}
+.site-section.header{
+background-color: var(--background-white);
+}
+.container{
+    max-width: 1640px;
+    margin: 0 auto;
+}
