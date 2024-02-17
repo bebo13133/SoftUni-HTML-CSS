@@ -13,7 +13,7 @@
 body {
     font-family: "Inter", sans-serif;
     color: var(--text-color);
-    background-color: var(--background);
+    background-color:#F3F5FA;
 }
 a{
     text-decoration: none;
@@ -29,6 +29,7 @@ img {
     justify-content: space-between;
     flex-wrap: nowrap;
     padding: 2em 10em;
+    background-color: white;
 }
 .nav-list{
     display: flex;
@@ -92,6 +93,7 @@ font-size: 1.25em;
     justify-content: center;
     align-items: center;
     padding: 8em 0;
+    background-color: white;
 
 }
 .cards-list .card{
@@ -178,6 +180,7 @@ font-size: 1.25em;
     display: flex;
     border: 2px solid var(--border);
     border-radius: 15px;
+    overflow: hidden;
 }
 .background{
    
@@ -233,7 +236,9 @@ background-color: var(--second-bg);
     padding: 0 2em;
     flex-direction: column;
     flex-wrap: nowrap;
-    margin: 2em 0;
+    /* margin: 2em 0; */
+    background-color: white;
+    padding-bottom: 2em;
 }
 .price-card h2 {
     font-size: 3.2em;
@@ -264,7 +269,7 @@ text-align: center;
 }
 .price-card a{
  /* text-align: center; */
-    margin-top: 1em;
+    /* margin-top: 1em; */
   align-self: center;
     background-color: var(--second-bg);
     padding: 1em 6.5em;
@@ -275,4 +280,5 @@ text-align: center;
 }
 footer{
     padding: 2em;
+    background-color: white;
 }
