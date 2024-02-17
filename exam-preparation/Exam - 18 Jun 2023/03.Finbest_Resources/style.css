@@ -155,3 +155,110 @@ font-size: 1.25em;
     color: var(--text-color);
     border-bottom: 1px solid black;
 }
+.pricing-plans{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3F5FA;
+    padding: 4em 0 8em 0;
+}
+.pricing-plans a {
+    font-size: 1.5em;
+    background-color: var(--second-bg);
+    padding: 0.7em 1.2em;
+    margin-bottom: 2em;
+    border-radius: 10px;
+}
+.pricing-plans h2{
+    font-size: 3.3em;
+}
+.pricing-cards{
+    display: flex;
+}
+.extend-card{
+    flex: 0 0 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin: 2em 0; */
+    padding: 2em 2em;
+background-color: var(--second-bg);
+}
+
+.extend-card h3:first-child {
+    text-align: center;
+
+}
+.extend-card p {
+    font-size: 1.2em;
+    padding-bottom: 0.5em;
+ 
+}
+.extend-card p:nth-child(3) {
+    font-size: 1.2em;
+    padding-top: 2em;
+ 
+}
+.extend-card a{
+    display: flex;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1em 6.5em;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px ;
+
+
+
+}
+/* .extend-card a {
+    display: flex;
+    align-content: flex-end;
+} */
+.price-card{
+    display: flex;
+    padding: 0 2em;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 2em 0;
+}
+.price-card h2 {
+    font-size: 3.2em;
+    padding: 1em 0;
+}
+.divider{
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 2em;
+}
+.divider span{
+    color: #98B8B6;
+    font-size: 0.3em;
+}
+.price-card h3 {
+    font-size: 1.5em;
+text-align: center;
+
+}
+.price-card p {
+    font-size: 1.2em;
+    padding-bottom: 0.5em;
+ 
+}
+.price-card:nth-child(even){
+    border-left: 1px solid var(--border);
+    border-right: 1px solid var(--border);
+
+}
+.price-card a{
+ /* text-align: center; */
+    margin-top: 1em;
+  align-self: center;
+    background-color: var(--second-bg);
+    padding: 1em 6.5em;
+    border-radius: 5px ;
+    color: black;
+    /* font-size: 1.1em; */
+    font-weight: bold;
+}
