@@ -70,6 +70,7 @@ font-size: 1.25em;
 .hero p{
     font-size: 1.5em;
     padding-bottom: 2.3em;
+ 
 }
 .hero-btn{
     display: flex;
@@ -80,6 +81,7 @@ font-size: 1.25em;
     background-color: black;
     padding: 1em 2em;
     border-radius: 5px; 
+    font-size: 1.25em;
 }
 .hero-btn i{
     padding-right: 0.2em;
