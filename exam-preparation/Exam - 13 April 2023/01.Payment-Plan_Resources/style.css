@@ -6,3 +6,64 @@ body {
     font-family: "Inter", sans-serif;
 
 }
+
+body {
+    background-image: url('/image/background.jpg');
+    height: 892px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pricing-cards {
+    max-width: 1630px;
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 4em 6em;
+    flex-wrap: nowrap;
+}
+.price-card{
+    flex: 0 0 38%;
+    display: flex;
+    padding: 2em;
+    flex-direction: column;
+    background-color: white;
+    justify-content: space-between;
+    height: 795px;
+}
+.price-card h3{
+    font-size: 2em;
+}
+.price-card h2{
+    font-size: 5em;
+    font-weight: bold;
+    padding:0.7em 0;
+}
+.price-card p{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+}
+.price-card p:nth-child(3){
+    color: #A09B98;
+    font-size: 18px;
+    padding-bottom: 2em;
+}
+.price-card span{
+    color: #A09B98;
+    font-size: 20px;
+}
+.price-card a{
+    margin-top: 4em;
+background-color: black;
+color: white;
+padding: 1em 3em;
+align-self: baseline;
+border-radius: 5px;
+}
+.price-card:hover{
+    transform: scale(1.1, 1.1);
+}
