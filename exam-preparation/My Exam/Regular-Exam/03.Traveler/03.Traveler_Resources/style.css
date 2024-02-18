@@ -1,0 +1,236 @@
+:root{
+    --background-white:#F8F0E9;
+    --background-red:#E14747;
+    --dark-text:#352B2A;
+    --dark-description:#4E4442;
+    --yellow-btn-background:#FAD87A;
+    --braun-bg:#352B2A;
+}
+
+body{
+    font-family: "Cormorant Infant", serif;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.background{
+    position: relative;
+    background-image: url('/images/poster.jpg');
+    background-repeat: no-repeat;
+    background-position:center top -50px;
+    z-index: -1;
+
+    background-size:cover;   
+}
+.background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4); /* Потъмнява фона с 50% черен цвят */
+    z-index: -1;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Karla", sans-serif;
+    padding: 2em 4em;
+    font-size: 1.125em;
+    z-index: 1111;
+}
+header img{
+    width: 107px;
+    height: auto;
+    
+}
+header ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+header ul a {
+color: white;
+z-index: 1111;
+
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero h1{
+    /* height: 100vh; */
+    font-size: 5.625em;
+    padding-top: 3.5em;
+    padding-bottom: 2em;
+    z-index: 1111;
+
+}
+.hero h4{
+    font-size: 1.25em;
+    text-align: center;
+    padding-bottom: 10em;
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+
+}
+.middle{
+    background-color: var(--background-white);
+}
+.container-middle{
+    padding-left: 7em;
+    max-width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 3em;
+    color: var(--dark-text);
+    /* width: 60%; */
+    padding-bottom: 8em;
+
+}
+.container-middle h2{
+    font-size: 4em;
+font-style: italic;
+font-weight: bold;
+line-height: 0.8em;
+max-width: 30ch;
+
+/* letter-spacing: 0.1em; */
+}
+.container-middle h3{
+    padding-top: 2em;
+    font-size: 1.25em;
+    font-family: "Karla", sans-serif;
+    color: #4E4442;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-red);
+    font-family: "Karla", sans-serif;
+    padding: 5em 0;
+}
+.info h3{
+    font: 1.75em;
+    /* padding-top: 4em; */
+    padding-bottom: 3em;
+}
+.info p{
+    text-align: center;
+    width: 30ch;
+}
+.container-media{
+    background-color: var(--background-white);
+    color: var(--dark-text);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.article-media{
+    max-width: 630px;
+    margin: 0  auto;
+    display: flex;
+    flex-direction: column;
+    /* padding: 4em 0; */
+    padding: 4em 4.5em;
+}
+.article-media h2{
+    font-size: 4em;
+   
+    text-align: center;
+    padding: 1em 0.3em;
+    /* padding-top: 1em; */
+    line-height: 1em;
+}
+.article-media p{
+    font-size: 1.25em;
+    font-weight: 600;
+    line-height: 1.2em;
+    font-family: "Karla", sans-serif;
+
+}
+.article-media a {
+    margin: 4em 0;
+    font-size: 1.25em;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    align-self: flex-start;
+    padding: 0.3em 1em;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: "Karla", sans-serif;
+
+}
+.anchor{
+    margin: 4em 0;
+    font-size: 1.25em;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    font-family: "Karla", sans-serif;
+
+    padding: 0.3em 1em;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.site-red{
+    padding: 4em 30em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+background-color: var(--background-red);
+}
+
+.site-red h2{
+    font-size: 4em;
+}
+.site-red p {
+    text-align: center;
+    font-family: "Karla", sans-serif;
+    font-size: 1.25em;
+}
+.site-red a{
+    font-family: "Karla", sans-serif;
+    color: black;
+    background-color: var(--yellow-btn-background);
+    padding: 0.7em 1em;
+    border-radius: 25px;
+    margin: 4em 0;
+
+
+}
+.footer{
+    background-color: var(--braun-bg);
+    padding: 4em 10em;
+}
+.footer img {
+    width: 107px;
+    height: auto;
+    margin-bottom: 2.5em;
+}
+.desc{
+    padding-bottom: 2em;
+    font-size: 1.125em;
+    font-family: "Karla", sans-serif;
+
+}
+.reserved{
+    color:#573F32 ;
+    font-size: 1.125em;
+    font-family: "Karla", sans-serif;
+
+}
