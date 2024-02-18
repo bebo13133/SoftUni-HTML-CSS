@@ -20,7 +20,7 @@ a{
     background-repeat: no-repeat;
     background-position:center top -50px;
     z-index: -1;
-
+    overflow: hidden;
     background-size:cover;   
 }
 .background::before {
@@ -209,6 +209,7 @@ background-color: var(--background-red);
     background-color: var(--yellow-btn-background);
     padding: 0.7em 1em;
     border-radius: 25px;
+    font-family: Arial, sans-serif;
     margin: 4em 0;
 
 
