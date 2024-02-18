@@ -253,7 +253,12 @@ font-size: 1.25em;
     
 }
 .img-contact{
-flex: 0 0 40%;
+    flex: 1 1 50%;
+}
+.img-contact img{
+width:  100%;
+height: auto;
+
 }
 .contact-info{
     display: flex;
