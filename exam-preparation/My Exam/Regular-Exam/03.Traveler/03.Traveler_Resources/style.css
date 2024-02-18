@@ -103,7 +103,7 @@ font-style: italic;
 font-weight: bold;
 line-height: 0.8em;
 max-width: 30ch;
-
+    font-family: "Karla", sans-serif;
 /* letter-spacing: 0.1em; */
 }
 .container-middle h3{
