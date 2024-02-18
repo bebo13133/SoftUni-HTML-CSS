@@ -245,3 +245,23 @@ font-size: 1.25em;
     font-size: 1.25em;
    
 }
+.contacts{
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    gap: 4em;
+    
+}
+.img-contact{
+flex: 0 0 40%;
+}
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.contact-info p{
+    padding: initial;
+    text-align: left;
+}
